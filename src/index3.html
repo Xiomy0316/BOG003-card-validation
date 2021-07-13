@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ <main>
+<!--página de agendamiento-->
+<section class="aceptar-esconder" id="agenda">
+  <div class="date-ciudad-de-recogida">
+    <label for="recogida1">Ciudad de recogida<strong><abbr title="required" style="color:red">*</abbr></strong></label>
+    <input type="text" id="date-ciudad-de-recogida" name="recogida1"/><br><br>
+  </div>
+  <div class="date-ciudad-de-devolucion">
+    <label for="devolucion1">Ciudad de devolución<strong><abbr title="required" style="color:red">*</abbr></strong></label>
+    <input type="text" id="date-ciudad-de-devolucion" name="devolucion1"/><br><br>
+  </div>
+    <div class="date-recogida">
+      <label for="recogida2">RECOGIDA<strong><abbr title="required" style="color:red">*</abbr></strong></label>
+      <input type="datetime-local" value="recogida" id="date-recogida" name="recogida2" min="2021-01-01T06:00" max="2021-12-31T18:00"/><br><br>
+    </div>
+    <div class="date-devolucion">
+      <label for="devolucion2">DEVOLUCIÓN<strong><abbr title="required" style="color:red">*</abbr></strong></label>
+      <input type="datetime-local" value="devolucion" id="date-devolucion" name="devolucion2" min="2021-01-01T06:00" max="2021-12-31T18:00"/><br><br>
+    </div>
+    <button id="buscar" target="_blank"><a href="./index4.html">Buscar</a></button>
+  </section>
+</main> 
+<script src="index.js" type="module"></script>
+</body>
+</html>

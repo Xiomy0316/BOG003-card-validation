@@ -138,16 +138,38 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+🦀 GoTravel.com
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+🦀 Aplicación web de renta de autos diseñada para multiples tipos de usuario, que sepan conducir, tengan su licencia al   día y necesiten o quieran hacerlo 
 * La imagen final de tu proyecto.
+<img src="Imagen_Final_Proyecto.png"/>
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+  🦀 Como usuario se tiene cualquier persona que sepa conducir, tenga su licencia al día y, quiera o necesite hacerlo.   El objetivo principal de dichos usuarios, es rentar un auto según sus necesidades y preferencias, seleccionando así el auto ideal.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+  🦀 Tienen un auto diferente cada vez que sus necesidades y/o preferencias cambien.
+  🦀 Renta de manera rápida y fácil.
+  🦀 Renta con anterioridad para los días que el usuario desee.
+  🦀 Pago en línea seguro.
+  🦀 Tránsito a nivel nacional, sin límite de kilometraje.
   3. Luego colocarás la foto de tu primer prototipo en papel.
+  <img src="Prototipo_Papel/Bienvenida_Papel.png."/>
+  <img src="Prototipo_Papel/Alerta_Papel.png"/>
+  <img src="Prototipo_Papel/Agenda_Papel.png"/>
+  <img src="Prototipo_Papel/Autos_Papel.png"/>
+  <img src="Prototipo_Papel/Formulario_Papel.png"/>
+  <img src="Prototipo_Papel/Gracias_Papel.png"/>
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  🦀 Realmente no recibí ninguna apreciación en la cual tuviese mejoras a realizar, por el contrario les parecío organizada y fácil de manejar.
   5. Imagen del prototipo final.
+  <img src="Proyecto_Final_Figma/Bienvenida.png"/>
+  <img src="Proyecto_Final_Figma/Alerta.png"/>
+  <img src="Proyecto_Final_Figma/Agenda.png"/>
+  <img src="Proyecto_Final_Figma/Autos.png"/>
+  <img src="Proyecto_Final_Figma/Formulario.png"/>
+  <img src="Proyecto_Final_Figma/Gracias.png"/>
 
 #### Visualmente (HTML y CSS)
 

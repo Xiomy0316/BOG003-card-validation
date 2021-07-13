@@ -1,0 +1,819 @@
+/*Estilos del index.html*/
+.container-presentation {
+margin: auto;
+background-image: url(Imagenes/fondo.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+.bienvenida h1 {
+font-family: Roboto;
+font-size: 150px;
+font-style: Bold;
+font-weight: 700;
+line-height: 0px;
+letter-spacing: normal;
+Fill: Solid; 
+text-align: Center;
+color: rgba(255, 255, 255, 1);
+text-shadow: -2px -2px 6px #000;
+margin-bottom: 170px;
+margin-left: -25px;
+margin-top: 70px;
+}
+
+.logo1 {
+background-image: url("Imagenes/logo.png");
+background-size: contain;
+background-position-y: center;
+background-position-x: center;
+border: 1px solid palegoldenrod;
+border-style: double;
+height: 230px;
+width: 460px;
+position: relative;
+display: ruby-text-container;
+margin-left: 32%; 
+margin-bottom:90px;
+margin-top: -10px; 
+opacity: 0.9;
+}
+
+#reservar {
+height: 40px;
+width: 240px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background: rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 24px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-left: 40.5%; 
+margin-bottom: 12.5px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+/*Estilos del index2.html*/
+.seleccion-esconder {
+background-image: url(Imagenes/fondo.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+width: 98.6vw;
+height: 97.2vh;
+display: table;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+.atencion {
+height: 823px;
+width: 1251px;
+position: center;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background-size: contain;
+float: none;
+display: inline-block;
+bottom: 10px;
+} 
+
+h2 {
+height: 122px;
+width: 807px;
+background-position: center center;
+Fill: Solid;
+background: rgba(255, 0, 0, 1);
+font-family: Roboto;
+font-size: 96px;
+font-style: Bold;
+font-weight: 700;
+text-align: Center;
+margin-left: 20%; 
+margin-top: 30px; 
+border: 1px solid rgba(0, 0, 0, 1);
+
+}
+
+.seleccion-esconder p {
+font-family: Roboto;
+font-size: 50px;
+font-style: Light;
+font-weight: 300;
+text-align: justify;
+Fill: Solid;
+background: rgba(255, 255, 255, 1);
+color: rgba(0, 0, 0, 1);
+display: block;
+margin-right: 100px;
+margin-left: 80px;
+border: 1px solid rgba(0, 0, 0, 1);
+opacity: 0.8;
+}
+
+#aceptar {
+height: 48px;
+width: 240px;
+border-radius: 8px;    
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background: rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+float: none;
+display: inline-block;
+background-position: left;
+}
+    
+#cancelar {
+height: 48px;
+width: 240px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background: rgba(196, 196, 196, 1);
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+float: none;
+display: inline-block;
+background-position: right
+}
+
+#aceptar, #cancelar {
+margin-left: 20%; 
+margin-top: 30px;
+box-shadow: 0 12px 16px 0 rgba(8, 8, 8, 0.89), 0 17px 50px 0 rgba(7, 7, 7, 0.904);
+}
+
+/*Estilos del index3.html*/
+.aceptar-esconder {
+Background: rgba(255, 255, 255, 1);
+height: 60px;
+width: 1350px;
+background: rgba(204, 255, 0, 1);
+Fill: Solid;
+border-style: outset;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+#date-ciudad-de-recogida, #date-ciudad-de-devolucion {
+height: 28px;
+width: 240px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 1);
+Fill: Solid;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 2px;
+color: rgba(0, 0, 0, 0.7);
+float: none;
+display: table;
+margin-left: 1%; 
+margin-top: 20px;
+text-align: center;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+.date-ciudad-de-recogida, .date-ciudad-de-devolucion {
+Fill: Solid;
+font-family: Roboto;
+font-size: 24px;
+font-style: bold;
+font-weight: 400;
+line-height: 2px;
+color: rgba(0, 0, 0, 0.7);
+float: none;
+display: inline-block;
+margin-left: 20%; 
+margin-top: 90px;
+text-align: center;
+background-position: left;
+}
+
+#date-recogida {
+height: 330px;
+width: 300px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 1);
+Fill: Solid;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 200;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.7);
+float: none;
+display: table;
+margin-bottom: auto; 
+margin-top: 15px;
+text-align: center;
+margin-left: 240px;
+margin-right: 250px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+#date-devolucion {
+height: 330px;
+width: 300px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 1);
+Fill: Solid;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 200;
+line-height: 30px;
+color: rgba(0, 0, 0, 0.7);
+float: none;
+display: table;
+margin-bottom: auto; 
+margin-top: 15px;
+text-align: center;
+margin-left: -30px;
+margin-right: -40px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+    
+.date-recogida, .date-devolucion {
+Fill: Solid;
+font-family: Roboto;
+font-size: 30px;
+font-style: normal;
+font-weight: 200;
+line-height: 2px;
+color: rgba(0, 0, 0, 0.7);
+float: none;
+display: inline-block;
+text-align: center;
+margin-top: 50px;
+}
+
+#buscar {
+height: 40px;
+width: 240px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background: rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 24px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-left: 40%; 
+margin-bottom: 12px;
+margin-top: 5px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+/*Estilos del index4.html*/
+.agenda-esconder {
+Background: rgba(255, 255, 255, 1);
+height: 60px;
+width: 1330px;
+background: rgba(204, 255, 0, 1);
+Fill: Solid;
+border-style: outset;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+header {
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+text-align: justify;
+color: rgba(0, 0, 0, 1);
+Fill: Solid
+}
+
+figcaption {
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: 10px;
+letter-spacing: 0em;
+text-align:left;
+color: rgba(0, 0, 0, 1);
+margin-left: 24px; 
+margin-bottom: 180px;
+margin-top: -82px;
+}
+
+.gallery {
+box-sizing: border-box;
+position:relative;
+width: 98vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+background-color: rgb(250, 252, 252);
+flex-wrap: wrap;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 1px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 20px;
+}
+
+.gallery p {
+margin-left: 32px;
+}
+
+.gallery li {
+margin: 1px;
+}
+
+.gallery img {
+width: 240px;
+height: 160px;
+margin-right: -25px;
+margin-bottom: -100px;
+margin-left: -15%;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+#automovil1 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil1 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil2 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil2 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil3 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil3 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil4 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil4 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil5 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil5 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil6 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil6 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil7 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil7 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#automovil8 {
+width: 40px;
+height: 20px;
+margin-right: 48px;
+margin-left: -24%;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+}
+
+.automovil8 img:hover {
+color:blue;
+transition-duration: 0.4s;
+}
+
+#continuar1 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar2 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar3 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar4 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar5 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar6 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar7 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+#continuar8 {
+height: 20px;
+width: 100px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background:rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 12px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-right: 20%;
+margin-bottom: 8px;
+margin-left: -32px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);
+}
+
+/*Estilos del index5.html*/
+header p {
+Background: rgba(255, 255, 255, 1);
+height: 35px;
+width: 1330px;
+background: rgba(204, 255, 0, 1);
+Fill: Solid;
+border-style: outset;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+margin-top: 0px;
+}
+
+.formulario h3 {
+font-family: Roboto;
+font-size: 48px;
+font-style: Bold;
+font-weight: 600;
+line-height: 0px;
+letter-spacing: normal;
+Fill: Solid; 
+text-align: Center;
+color: #000;
+margin-bottom: 40px;
+margin-left: -25px;
+margin-top: 10px;
+}
+
+body {
+box-sizing: border-box;
+font-family: Roboto;
+}
+
+.formulario {
+display:grid;
+gap: 1px;
+}
+
+.formulario__label {
+display: block;
+font-weight: 700;
+padding: 10px 0 5px 20px;
+cursor: pointer;
+}
+
+.formulario__grupo-input {
+position: relative;
+padding: 10px 0 5px 20px;
+} 
+
+.formulario__grupo {
+padding: 10px 0 5px 20px;
+}
+
+.tarjeta {
+padding: 10px 0 5px 20px;
+} 
+
+#tipoDocumento, #tipoLicencia, #tipoTarjeta {
+margin-left: -19px;
+}
+
+.formulario__input {
+width: 40%;
+background: #ffff;
+border: 2px solid rgba(0, 0, 0, 0.2);
+border-radius: 8px;
+height: 25px;
+transition: .3s ease all;
+}
+
+.formulario__input:focus {
+border: 3px solid #0075ff;
+outline: none;
+box-shadow: 3px 0 30px rgba(163,163,163,0.8);
+}
+
+#formulario {
+box-sizing: border-box;
+flex-wrap: wrap;
+width: 100%;
+height: 100%;
+max-width: 100%;
+margin: auto;
+padding-right: 10px;
+margin-top: 10px;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 100;
+line-height: 2px;
+color: rgba(0, 0, 0, 1);
+}    
+
+#confirmar {
+height: 32px;
+width: 160px;
+border-radius: 8px;
+border: 1px solid rgba(0, 0, 0, 1);
+Fill: Solid;
+background: rgba(153, 204, 0, 1);
+font-family: Roboto;
+font-size: 20px;
+font-style: Bold;
+font-weight: 700;
+background-position: center;
+margin-left: 46%; 
+margin-top: 16px;
+float: none;
+display: inline-block;
+box-shadow: 0 14px 18px 0 rgba(12, 12, 12, 0.89), 0 19px 60px 0  rgba(2, 2, 2, 0.904);    
+}
+
+#gracias {
+    display:none;
+}
+
+.container-fin {
+background-image: url("Imagenes/Coche-moderno.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+background-size: cover;
+width: 98.5vw;
+height: 80vh;
+display: inline-table;
+border: 1px solid rgba(0, 0, 0, 0.5);
+box-shadow: 1px 1px 15px 1px;
+}
+
+.logo2 {
+background-image: url("Imagenes/logo.png");
+background-size: contain;
+background-position-y: center;
+background-position-x: center;
+border-style: double;
+height: 230px;
+width: 460px;
+position: relative;
+display: ruby-text-container;
+margin-left: 54%; 
+margin-bottom:1px;
+margin-top: 80px; 
+opacity: 0.8;
+}
+
+h1 {
+margin-left: 40%;
+margin-top: 10px;
+font-family: Roboto;
+font-size: 80px;
+font-style: normal;
+font-weight: 600;
+border-radius: 0px;
+color: rgba(255, 245, 2, 1);
+text-align: center;
+text-shadow: -3px -3px 3px rgba(78, 109, 219, 1), 3px -3px 3px #0000DF, -3px 3px 3px #0000DF, 3px 3px 3px #0000DF;
+}
+
+footer {
+text-align-last: right;
+line-height: 4px;
+margin-top: 40.5px;
+color: cornsilk;
+}

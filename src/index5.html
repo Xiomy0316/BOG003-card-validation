@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+ <main>
+<!--página de reserva y agradecimiento-->
+<section class="formulario" id="formulario">
+    <header><p>Ahora solo estas a un paso de tener tu coche ideal, para completar tu reserva ingresa los siguientes
+      datos:</p></header>
+    <form action="" method="post" enctype="multipart/form-data" id="prueba">
+      <div class="text">
+        <h3>DATOS DE LA RESERVA</h3>
+      </div>
+    <div class="formulario__grupo" id="grupo__nombre"></div>
+      <label for="nombre" class="formulario__label">Nombre completo<strong><abbr title="required" style="color:red">*</abbr></strong><br></label>  
+      <div class="formulario__grupo-input">
+      <input type="text" class="formulario__input" id="nombre" name="nombre"/>
+      </div>
+    <div class="formulario__grupo" id="grupo__tipoDocumento">
+      <label for="tipoDocumento" class="formulario__label" id="tipoDocumento" name="tipoDocumento">Tipo de documento<br><br><br></label>
+      <select name="tipoDocumento">
+        <option value="0">-------------------------------------</option>
+        <option value="1">Cédula de Ciudadanía</option>
+        <option value="2">Cédula de Extranjería</option>
+        <option value="3">Pasaporte</option>
+        <option value="4">Permiso Especial de Permanencia (PEP)</option>
+      </select>
+    </div>
+    <div class="formulario__grupo" id="grupo__numeroDocumento"></div>
+      <label for="numeroDocumento" class="formulario__label">Número de documento<strong><abbr title="required" style="color:red">*</abbr></strong><br></label>
+      <div class="formulario__grupo-input">
+      <input type="text" class="formulario__input" id="numeroDocumento" name="numeroDocumento"/>
+    </div>
+    <div class="formulario__grupo" id="grupo__correo"></div>
+      <label for="correo" class="formulario__label">Correo electrónico<strong><abbr title="required" style="color:red">*</abbr></strong><br></label>
+      <div class="formulario__grupo-input">
+      <input type="text" class="formulario__input" id="correo" name="correo" placeholder="example@mail.com"/>
+    </div>
+    <div class="formulario__grupo" id="grupo__telefono"></div>
+      <label for="telefono" class="formulario__label">Telefono<strong><abbr title="required" style="color:red">*</abbr></strong><br></label>
+      <div class="formulario__grupo-input">
+      <input type="text" class="formulario__input" id="telefono" name="telefono"/>
+    </div>
+    <div class="formulario__grupo" id="grupo__tipoLicencia">
+      <label for="tipoLicencia" class="formulario__label" id="tipoLicencia" name="tipoLicencia">Tipo de Licencia</label><br><br><br>
+      <select name="tipoLicencia">
+        <option value="0">-------------------------------------</option>
+        <option value="1">B1</option>
+        <option value="2">C1</option>
+      </select>
+    </div>
+    <div class="formulario__grupo" id="grupo__licencia">
+    <div class="text">
+      <p>Por favor ingrese fotografía de su licencia de conducción (PDF)</p>
+    </div>
+      <input type="file" accept="document/PDF" target="_blank" id="licencia" name="subir"/><strong><abbr title="required" style="color:red">*</abbr></strong>
+    </div>
+    <div class="tarjeta">
+      <label for="tipoTarjeta" class="formulario__label" id="tipoTarjeta" name="tipoTarjeta">Tipo de tarjeta<strong><abbr title="required" style="color:red">*</abbr></strong><br><br><br></label>
+      <select name="tipoTarjeta">
+        <option value="0">-------------------------------------</option>
+        <option value="1">Mastercard</option>
+        <option value="2">Visa</option>
+      </select>
+      <label for="numeroTarjeta" class="formulario__label">Número de tarjeta<strong><abbr title="required" style="color:red">*</abbr></strong><br></label>
+      <input type="text" class="formulario__input" maxlength="16" id="numeroTarjeta" name="numeroTarjeta"/>
+      <label for="numeroTarjeta2" class="formulario__label">Número de tarjeta</label>
+      <input type="text" class="formulario__input" maxlength="16" id="numeroTarjeta2"  placeholder="#### #### #### ####"/>
+    </div>
+    <button id="confirmar" type="button" value="confirmar">CONFIRMAR</button><br><br>
+    </form>
+  </section>
+  <section class="gracias" id="gracias">
+    <div class="container-fin">
+        <figure class="fondo">
+            <img/>
+        </figure>
+        <div class="text">
+            <h1>¡GRACIAS POR ELEGIRNOS!</h1>
+        </div>
+        <figure class="logo2">
+            <img/>
+        </figure>
+    <footer>
+        <p>Copyright</p>
+        <p>Created by: GoTravel.com</p>
+    </footer>
+    </div>
+</section>
+</main> 
+<script src="index.js" type="module"></script>
+</body>
+</html>
