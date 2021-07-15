@@ -18,6 +18,7 @@ document.getElementById("confirmar").addEventListener("click", () => {
  
 }); 
 
+
 document.getElementById("numeroTarjeta").addEventListener("keyup", function(event){
   const insertNum=event.target.value;
   let ocult = validator.maskify(insertNum);
