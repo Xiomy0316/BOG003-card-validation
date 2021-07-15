@@ -27,7 +27,6 @@ const validator = {
     }
   },
 
-
   maskify:(creditCardNumber)=>{
    let cantNumber = creditCardNumber.length;
    let maskifyNum = "";
